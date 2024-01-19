@@ -1,0 +1,121 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header,
+.footer {
+  background-color: #1F2937;
+}
+
+.subtitle {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+.text,
+figcaption,
+a {
+  font-size: 18px;
+  color: rgb(123, 127, 134);
+  margin: 16px;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 24px;
+  color: #F9FAF8;
+  align-items: center;
+  padding: 8px 48px;
+}
+
+.container,
+ button {
+  background-color: #3882F6;
+}
+
+
+
+.information {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1F2937;
+  margin: 16px;
+  padding: 0;
+
+}
+
+.content {
+  background-color: #e5e7eb;
+  padding: 24px;
+  margin: 24px 0;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.images {
+  display: flex;
+  flex-flow: row;
+}
+
+.title {
+  margin: 8px;
+  padding: 8px;
+}
+
+.container {
+  margin: 16px 24px;
+  padding: 8px 20px;
+  border-radius: 8px;
+  color: #F9FAF8;
+}
+
+img {
+  display: flex;
+  flex: 1;
+  border-radius: 8px;
+  margin-left: 8px;
+}
+
+.text {
+  display: flex;
+}
+
+
+figcaption {
+  align-self: flex-start;
+  border-top: 2px solid rgb(169, 13, 94);
+  border-bottom: 2px solid rgb(169, 13, 94);
+  font-size: 80%;
+  width: 20vw;
+}
